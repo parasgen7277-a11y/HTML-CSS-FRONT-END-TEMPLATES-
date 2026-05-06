@@ -6,9 +6,9 @@ This repository contains multiple website clones created using **HTML** and **CS
 
 ## 🚀 Projects
 
-### 1. **Flipkart Clone**
+### 1. **Swiggy Clone**
 
-- **Description**: A clone of the Flipkart homepage using HTML and CSS.
+- **Description**: A clone of the Swiggy homepage using HTML and CSS.
 - **Features**:
   - Navigation bar with logo and search bar
   - Product categories section
