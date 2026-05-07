@@ -1,0 +1,380 @@
+*{ 
+margin:0;
+padding:0;
+}
+		/*  body,s  background-image */
+body{
+	background-image:url("../img/bg-courses.jpg");
+}
+		/*navbar styles */
+nav{
+	justify-content: space-between;
+	height:5%;
+	width:99%;
+	border:40px solid #ccc;
+	text-align:center;
+	background-color:#ccc;
+}
+.logo{
+	height: 61px;
+	width: 160px;
+    margin-top: -4%;
+}
+.navbar{
+	float:left;
+	width:32%;
+	word-spacing:1em;
+	color: #333;
+	font-family: Georgia, serif;
+	font-size:em;
+	font-style:bold;
+}
+.rightnav{
+	word-spacing:none;
+	padding:px;
+	margin-right:;
+	width:33%;
+}
+
+a{
+	text-decoration: none;
+}
+
+		/* hero section*/
+.imgg img{
+	height:56em;
+	width:100%;
+}
+.imgg p{
+	text-align:right;
+	margin-top:-55%;
+	color:#ffffff;
+	padding:200px;
+	font-family: Georgia, serif;
+	font-size:4em;
+}
+.imgg p span{
+	color: #ff4000;
+}	
+			/* all button style*/
+button{
+	height:30px;
+	width:150px;
+	color:#ffffff;
+	background-color: #ff4000;
+	border:transparent;
+	border-radius:15px;
+}
+		/*about us section styles*/
+section{
+	width:100%;
+	background-color:;
+}
+.about{
+	font-size:18px;
+	border: transparent;
+	float: left;
+	width:44%;
+	height:40%;
+	background-color:;
+	margin:2%;
+	margin-top:10em;
+	display: ;
+	justify-content: space-between;
+	text-align:left;
+	 text-align: justify;	
+	 line-height:25px;
+	 padding:10px;
+	 background-color:;
+	 word-spacing:5px;
+}
+			/* All heading style*/
+ .us{
+	color:#aaa;
+	font-family: Georgia, serif;
+	font-size:35px;
+	word-spacing:10px;
+	margin:2%;
+}
+		/* all sub heading styles*/
+h2{
+	font-family:  Arial, Helvetica, sans-serif;
+	word-spacing:5px;
+	font-style: bold;
+	font-size:35px;
+	margin-left:5%;
+	line-height:33px;
+}
+.left p{
+	margin-left:5%;
+}
+.left li{
+	margin-left:5%;
+}
+.right img{
+	margin:5%;
+	height:15rem;
+	width:30rem;
+}
+.right{
+	
+	text-align:center;
+}
+		/* cards styles*/
+#cards{
+	margin-top:45%;
+	width:100%;
+	height:60%;
+	text-align:center;
+	border:none;
+	background-color:;
+	justify-content:center;
+	
+}
+.cards{
+	float:left;
+	background-color:#aaa;
+	width:23%;
+	height:60%;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:1%;
+	margin-right:%;
+	color:;
+	border-radius:5px;	
+	text-decoration:none;
+	transition:0.5s;
+	line-height:20px;
+}
+.cards img{
+	height:3rem;
+	width:3rem;
+	margin:2%;
+}
+.crd{
+	margin:2%;
+	margin-left:5%;
+}
+		/* after hover card styles*/
+.cards:hover{
+	float:left;
+	text-align:10px;
+	background-color:#FF0f0f;
+	width:23%;
+	height:60%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15pt;
+	line-height:20px;
+	margin-left:1%;
+	margin-right:%;
+	color:#ffffff;
+	border-radius:5px;	
+	text-decoration:none;
+	transition:0.5s;
+	line-height:20px;
+}
+
+.cards h2{ 
+	margin:2%;
+}
+.cards p{
+	margin:2%;
+	margin-top:15%;
+}
+		/* review */
+#review{
+	background-color: #ff4000;
+	border-radius:20px;
+	height:7em;
+	width:70%;
+	text-align:center;
+	font-family:;
+	font-size:2em;
+	margin-left:15%;
+}
+.review{
+	float:left;
+	width:30%;
+	height:auto;
+	margin-top:5%;
+	color:#ffffff;
+}
+		/*buy books  courses section and card */
+#books{
+	margin-top:7em;
+	background-color:;
+	text-align:center;
+	height:initial;
+}	
+#books img{
+	width:100%;
+	height:60%;
+}
+.sub{
+	background-color:#ffffff;
+	text-align:center;
+	float:left;
+	width:25%;
+	height:24em;
+	margin:1%;
+	border:none;
+	padding:10px;
+	line-height:8em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:19px;
+}
+.subject{
+	background-color:#ffffff;
+	text-align:center;
+	float:left;
+	width:25%;
+	height:25em;
+	margin:1%;
+	padding:10px;
+	line-height:8em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:19px;
+	border:none;
+}
+.book{
+	background:;
+	margin:auto;
+	margin-top:10rem;
+	margin-left:8%;
+	height:150%;
+}
+.book h2{
+	margin-right:20%;
+}
+			/* reviwing styles*/
+#reviews{
+	margin-top:6vw;
+	width:%;
+	background-color:;
+	height:80%;
+	padding:3px;
+	line-height:2em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+}
+.reviewcard{
+	float:left;
+	width:40%;
+	height:45%;
+	border:none;
+	margin-top:3vw;
+	margin-left:3%;
+	border-radius:10px;
+	background-color:#ffffff;
+}
+.reviewcard img{
+	height:5em;
+	width:5em;
+	border-radius:25px;
+	margin:2%;
+	
+}
+.reviewcard p{
+	margin:4%;
+	margin-top:20%;
+}
+.reviewcard h3{
+	margin:2%;
+	float:left;
+	
+}
+			/* qns styles;*/
+#qna{
+	text-align:center;
+	padding:3px;
+	line-height:2em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:;
+	background-color:#ffffff;
+	align-items:center;
+	height:60%;
+}
+#qna p{
+	text-align:left;
+	margin:;
+	border:1px solid #ccc;
+	text-indent:10px;
+	line-height:3rem;
+	width:85%;
+}
+#qna .b{
+	font-family:;
+	font-size:15px;
+	line-height:25px;
+}
+#qna .qns{
+	margin:2%;
+	margin-left:13em;
+}
+#footer{
+	text-align:center;
+	margin-top:5%;
+	background-color: #24345F;
+	height:70%;
+	color:#ffffff;
+}
+			/* footer styles*/
+.footer{
+	float: left;
+	width:29%;
+	margin:1%;
+	margin-top:3%;
+	text-align:left;
+	line-height:30px;
+	padding:8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	line-height:20px;
+}
+.footer img{
+	height:1em;
+	width:7em;
+}
+.footer p{
+	margin:1%;
+	margin-top:5%;
+	font-size:9pt;
+	word-spacing:3px;
+}
+		/* horizointal line styles*/
+hr{	
+
+	width:80%;
+	margin-left:10%;
+	border: 1pt thin #ffffff;
+	border-color:white;
+}
+		/*footer icon style*/
+.icon{
+	background-color:#ff4000;
+	padding:7px;
+	border-radius:25px;
+}
+.rightnav .icon:{
+	word-spacing:1px;
+}
+.last i{
+	padding:19px;
+	border-radius:10px;
+	border: 1px solid gray;
+	margin-top:px;
+}
+.lasti{
+	margin:4%;
+}
+.last p span{
+	margin-right:1%;
+}
+		/* ending line*/
+.st{
+	margin:2%;
+	margin-top:4em;
+}
