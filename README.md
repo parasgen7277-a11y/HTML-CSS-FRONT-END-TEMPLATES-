@@ -16,14 +16,15 @@ This repository contains multiple website clones created using **HTML** and **CS
   - Multiple product listing sections
   - Footer with company details
 
-### 2. **[Another Website Clone Name]**
+### 2. Renaissanciens intitute of inpired learning
 
 - **Description**: A clone of [website name] using HTML and CSS.
-- **Features**:
-  - [Feature 1]
-  - [Feature 2]
-  - [Feature 3]
-
+-  **Features**:
+  - Navigation bar with logo and search bar
+  - Product categories section
+  - Hero banner section
+  - Multiple product listing sections
+  - Footer with company details
 (Repeat this section for each project)
 
 ---
